@@ -29,17 +29,30 @@ print(f"نتیجه ضرب: {z_valid},,,,,,,,{time.time()}")
 #
 # print(taghsim(55555515, 2))
 
+#
+# def menha(adad_aval,adad_dovom):
+#     a=adad_aval
+#     b=adad_dovom
+#     if not isinstance(adad_aval, (int, float)) or not isinstance(adad_dovom, (int, float)):
+#         return 'Error: لطفاً عدد صحیح یا اعشاری وارد کنید!'
+#
+#     else:
+#         c = a-b
+#         return c
+#
+# print(menha(5, 2))
 
-def menha(adad_aval,adad_dovom):
+
+def alave(adad_aval,adad_dovom):
     a=adad_aval
     b=adad_dovom
     if not isinstance(adad_aval, (int, float)) or not isinstance(adad_dovom, (int, float)):
         return 'Error: لطفاً عدد صحیح یا اعشاری وارد کنید!'
 
     else:
-        c = a-b
+        c = a+b
         return c
 
-print(menha(5, 2))
+print(alave(5, 2))
 
 
